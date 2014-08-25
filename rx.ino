@@ -6,7 +6,7 @@ PROGMEM const byte rxPins[4]={8,9,10,11};
 
 
 void initRX() {
-  for(int i = 8, i < 12; i++) {
+  for(int i = 8; i < 12; i++) {
     pinMode(i, INPUT);
     digitalWrite(i, HIGH);
   }

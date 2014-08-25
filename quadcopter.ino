@@ -33,10 +33,10 @@ void loop() {
   dt = (now-lasttime)/1000000;
   calculateMotorValues();
 #ifdef DEBUG
-//  printGyroVals();
-//  printAccelVals();
-  printMotorVals();
-  printPID();
+  printGyroVals();
+  printAccelVals();
+//  printMotorVals();
+  //printPID();
   Serial.print("Roll: ");
   Serial.println(calcRoll());
   Serial.print("Pitch: ");
